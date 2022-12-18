@@ -14,7 +14,7 @@ export default function Match(props) {
   return (
     <Div>
         <div className={Styles.btnWrapper}>
-            <h3><Div onClick={props.go} data-to='page2'>Header</Div></h3>
+            <h3><Div onClick={props.go} data-to='page2'>Матч</Div></h3>
             <Div onClick={handleHidden} style={{cursor: "pointer"}}>
               {Styles.isInfoHidden ? <Icon16Dropdown></Icon16Dropdown> : <Icon16DropdownFlipped></Icon16DropdownFlipped>}
             </Div>

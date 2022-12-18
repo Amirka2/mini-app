@@ -35,7 +35,7 @@ function generateDate(){
     }
     dates.push(i)
   }
-  return dates   
+  return dates  
 }
 
 function dataItems() { 
@@ -54,7 +54,7 @@ function dataItems() {
       //this.weekDay = weekDay;
     }
     let day = 1;
-    while (day <= days) {
+    while (day <= days + 2) {
       yield new date(day);
       return new (day++);
     }

@@ -21,7 +21,8 @@ const Home = ({ id, go, fetchedUser }) => (
 				<Button stretched size="l" mode="secondary" onClick={go} data-to="page1">
 					page1
 				</Button>
-				<Button stretched size="l" mode="secondary" onClick={go} data-to="page2">
+				
+				<Button stretched size="l" mode="secondary" onClick={go} data-to="page2" style={{"margin-top": "10px"}}>
 					page2
 				</Button>
 			</Div>

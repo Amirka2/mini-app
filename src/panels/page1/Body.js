@@ -16,7 +16,7 @@ export default function Body(props) {
     <Panel id={props.id} className={classes}>
         <Header go={props.go}></Header>
         <Dates></Dates>
-        <Button stretched size="l" mode="primary" >discuss</Button>
+        <Button size="l" mode="primary" >Обсудить матч</Button>
         <hr></hr> 
         <Content go={props.go}></Content>
     </Panel>
